@@ -1,5 +1,4 @@
 import {
-  SiAmazon,
   SiDocker,
   SiKubernetes,
   SiJenkins,
@@ -9,11 +8,11 @@ import {
   SiGit,
   SiPython,
   SiGithub,
-  SiSonarqube,
+  SiSonarqubeserver,
   SiLinux,
   SiAnsible,
 } from 'react-icons/si';
-import { FaShieldAlt } from 'react-icons/fa';
+import { FaAws, FaShieldAlt } from 'react-icons/fa';
 
 export const profile = {
   name: 'Satish Yedida',
@@ -44,7 +43,7 @@ export const strengths = [
     title: 'AWS Infrastructure',
     description:
       'Architecting highly available, secure environments with EC2, VPC, IAM, ALB, and Auto Scaling Groups.',
-    icon: SiAmazon,
+    icon: FaAws,
     accent: 'from-amber-400 to-orange-500',
   },
   {
@@ -71,7 +70,7 @@ export const strengths = [
 ];
 
 export const skills = [
-  { name: 'AWS', icon: SiAmazon, color: '#FF9900' },
+  { name: 'AWS', icon: FaAws, color: '#FF9900' },
   { name: 'Docker', icon: SiDocker, color: '#2496ED' },
   { name: 'Kubernetes', icon: SiKubernetes, color: '#326CE5' },
   { name: 'Jenkins', icon: SiJenkins, color: '#D24939' },
@@ -81,7 +80,7 @@ export const skills = [
   { name: 'Git', icon: SiGit, color: '#F05032' },
   { name: 'Python', icon: SiPython, color: '#3776AB' },
   { name: 'GitHub', icon: SiGithub, color: '#ffffff' },
-  { name: 'SonarQube', icon: SiSonarqube, color: '#4E9BCD' },
+  { name: 'SonarQube', icon: SiSonarqubeserver, color: '#4E9BCD' },
   { name: 'Linux', icon: SiLinux, color: '#FCC624' },
   { name: 'Ansible', icon: SiAnsible, color: '#EE0000' },
 ];
