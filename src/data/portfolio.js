@@ -23,8 +23,8 @@ export const profile = {
   email: 'satishyedida36@gmail.com',
   phone: '+91 9603178856',
   location: 'India',
-  linkedin: 'https://www.linkedin.com/in/satish-yedida',
-  github: 'https://github.com/satishyedida',
+  linkedin: 'https://www.linkedin.com/in/satish-yedida-devops-engineer/',
+  github: 'https://github.com/SatishYedida-hub',
   resumeUrl: '#',
   yearsOfExperience: 3.7,
 };
