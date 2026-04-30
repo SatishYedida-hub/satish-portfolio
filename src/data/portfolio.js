@@ -78,11 +78,9 @@ export const skills = [
   { name: 'Prometheus', icon: SiPrometheus, color: '#E6522C' },
   { name: 'Grafana', icon: SiGrafana, color: '#F46800' },
   { name: 'Git', icon: SiGit, color: '#F05032' },
-  { name: 'Python', icon: SiPython, color: '#3776AB' },
   { name: 'GitHub', icon: SiGithub, color: '#ffffff' },
   { name: 'SonarQube', icon: SiSonarqubeserver, color: '#4E9BCD' },
   { name: 'Linux', icon: SiLinux, color: '#FCC624' },
-  { name: 'Ansible', icon: SiAnsible, color: '#EE0000' },
 ];
 
 export const experiences = [
@@ -145,21 +143,6 @@ export const projects = [
     github: 'https://github.com/satishyedida',
     accent: 'from-sky-500 via-blue-500 to-indigo-500',
     icon: '☸️',
-  },
-  {
-    title: 'Terraform Infrastructure',
-    tagline: 'One repo, every environment',
-    description:
-      'Modular Terraform codebase that provisions VPC, EC2, and EKS across dev, staging, and prod — fully versioned, reviewable, and reproducible.',
-    highlights: [
-      'Reusable modules for VPC, EC2, IAM, and EKS',
-      'Remote state with S3 + DynamoDB locking',
-      'PR-driven plan/apply with approval gates',
-    ],
-    tech: ['Terraform', 'AWS', 'IAM', 'VPC'],
-    github: 'https://github.com/satishyedida',
-    accent: 'from-emerald-500 via-teal-500 to-cyan-500',
-    icon: '🏗️',
   },
 ];
 
